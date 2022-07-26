@@ -1,6 +1,8 @@
 name: PR Test
  
 on:
+  push:
+    branches: [ main ]
   pull_request:
     branches: [ main ] # master branch에 PR을 보낼 때 실행
  
